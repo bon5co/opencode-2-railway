@@ -2,6 +2,7 @@ name: publish
 on:
   push:
     branches: [main]
+    paths-ignore: ['*.md', 'icon.png']
   workflow_dispatch:
 permissions:
   packages: write
